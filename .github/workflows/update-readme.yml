@@ -1,0 +1,49 @@
+name: Update Featured Projects
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily — off the hour to avoid GitHub Actions cron congestion
+  push:
+    branches:
+      - main
+    paths:
+      - profile.overrides.json
+  workflow_dispatch: {}
+
+jobs:
+  update-readme:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Regenerate Featured Projects section from pinned repos
+        env:
+          # GitHub's GraphQL API (needed for pinnedItems) requires an authenticated
+          # request even to read public data — the default GITHUB_TOKEN may or may not
+          # be sufficient for a user-level pinnedItems query. PROFILE_PAT (a classic PAT
+          # with the `read:user` scope, `repo` too if you pin private repos) is the
+          # reliable path — see SETUP.md for exact setup steps. If neither works, the
+          # script exits with a clear error in this step's log and leaves README.md
+          # untouched rather than committing anything broken.
+          GH_TOKEN: ${{ secrets.PROFILE_PAT || secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and push if README changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- README.md; then
+            echo "No changes to README.md — skipping commit."
+          else
+            git add README.md
+            git commit -m "chore: refresh Featured Projects from pinned repos"
+            git push
+          fi

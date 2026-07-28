@@ -1,0 +1,7 @@
+{
+  "overrides": {
+    "KRKR1704/ultron_v2": {
+      "note": "(in progress) wake word detection, dual personality modes, smart-home integration, Claude fallback — self-attested, not yet reflected in the repo itself"
+    }
+  }
+}
