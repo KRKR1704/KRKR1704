@@ -116,33 +116,6 @@ foundations: [graph algorithms, DP, red-black trees, Dijkstra variants] # NJIT C
 <tr>
 <td width="50%" valign="top">
 
-### 📦 virtual-assistant
-_No description set on GitHub yet._
-
-<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=39FF14" />
-
-**[KRKR1704/virtual-assistant](https://github.com/KRKR1704/virtual-assistant)**
-<br/><sub>last pushed 2025-08-21</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 📦 study-buddy
-_No description set on GitHub yet._
-
-<img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=39FF14" />
-<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=39FF14" />
-<img src="https://img.shields.io/badge/-CSS-000000?style=flat-square&logo=css3&logoColor=39FF14" />
-<img src="https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=39FF14" />
-
-**[KRKR1704/study-buddy](https://github.com/KRKR1704/study-buddy)** · **[study-buddy-smoky-eight.vercel.app](https://study-buddy-smoky-eight.vercel.app)**
-<br/><sub>last pushed 2026-01-21</sub>
-
-</td>
-</tr>
-<tr>
-<td width="100%" valign="top" colspan="2">
-
 ### 📦 DMSD_Project
 _No description set on GitHub yet._
 
@@ -152,6 +125,49 @@ _No description set on GitHub yet._
 
 **[KRKR1704/DMSD_Project](https://github.com/KRKR1704/DMSD_Project)**
 <br/><sub>last pushed 2025-12-12</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 📦 desktop_pet
+_No description set on GitHub yet._
+
+<img src="https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-CSS-000000?style=flat-square&logo=css3&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-HTML-000000?style=flat-square&logo=html5&logoColor=39FF14" />
+
+**[KRKR1704/desktop_pet](https://github.com/KRKR1704/desktop_pet)**
+<br/><sub>last pushed 2026-07-28</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📦 ultron_v2
+_No description set on GitHub yet._<br/><i>(in progress) wake word detection, dual personality modes, smart-home integration, Claude fallback — self-attested, not yet reflected in the repo itself</i>
+
+<img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-CSS-000000?style=flat-square&logo=css3&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=39FF14" />
+
+**[KRKR1704/ultron_v2](https://github.com/KRKR1704/ultron_v2)**
+<br/><sub>last pushed 2026-07-21</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 📦 merchant-marquee
+Autonomous multi-agent AI pipeline that turns product photos into finished short-form video ads — script, voiceover, shots, and all. Built on Qwen Cloud, LangGraph, and Alibaba Cloud.
+
+<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-CSS-000000?style=flat-square&logo=css3&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-Dockerfile-000000?style=flat-square&logoColor=39FF14" />
+
+**[Rithvik1811/merchant-marquee](https://github.com/Rithvik1811/merchant-marquee)** · **[merchantmarquee.com](https://merchantmarquee.com)**
+<br/><sub>last pushed 2026-07-27</sub>
 
 </td>
 </tr>
