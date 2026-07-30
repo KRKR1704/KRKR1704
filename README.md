@@ -10,7 +10,7 @@
 
 I build AI-native products end to end — from the model layer to the pixels.<br/>
 Currently: an AI desktop assistant, an agent-trust protocol, and a roommate-expense agent backed by NSF I-Corps.<br/>
-<code>MS CS @ NJIT</code> · <code>ex-video-forgery-research</code> · <code>Python/TS full-stack</code>
+<code>MS CS @ NJIT</code> · <code>video-forgery-research</code> · <code>Python/TS full-stack</code>
 
 <br/>
 
@@ -38,7 +38,7 @@ currently_building:
   - Merchant Marquee — AI product-ad video generator (Global AI Hackathon w/ Qwen Cloud)
   - ULTRON — personal AI desktop assistant (wake word, dual personas, screen/camera awareness)
   - Founder Pet — desktop companion pet + MoteKin app
-research: IEEE published — video forgery detection
+research: IJSET published — video forgery detection
 foundations: [graph algorithms, DP, red-black trees, Dijkstra variants] # NJIT CS610
 ```
 
