@@ -147,13 +147,13 @@ _No description set on GitHub yet._
 ### 📦 ultron_v2
 _No description set on GitHub yet._<br/><i>(in progress) wake word detection, dual personality modes, smart-home integration, Claude fallback — self-attested, not yet reflected in the repo itself</i>
 
-<img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=39FF14" />
 <img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=39FF14" />
 <img src="https://img.shields.io/badge/-CSS-000000?style=flat-square&logo=css3&logoColor=39FF14" />
 <img src="https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=39FF14" />
 
 **[KRKR1704/ultron_v2](https://github.com/KRKR1704/ultron_v2)**
-<br/><sub>last pushed 2026-07-21</sub>
+<br/><sub>last pushed 2026-08-04</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -167,7 +167,7 @@ Autonomous multi-agent AI pipeline that turns product photos into finished short
 <img src="https://img.shields.io/badge/-Dockerfile-000000?style=flat-square&logoColor=39FF14" />
 
 **[Rithvik1811/merchant-marquee](https://github.com/Rithvik1811/merchant-marquee)** · **[merchantmarquee.com](https://merchantmarquee.com)**
-<br/><sub>last pushed 2026-07-27</sub>
+<br/><sub>last pushed 2026-08-03</sub>
 
 </td>
 </tr>
